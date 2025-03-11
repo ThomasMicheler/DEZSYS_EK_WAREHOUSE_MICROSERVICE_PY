@@ -2,7 +2,7 @@
 
 # Middleware Engineering "Microservices" - Taskdescription  
 
-Join GIT repository:   [https://github.com/ThomasMicheler/DEZSYS_EK_WAREHOUSE_MICROSERVICE_PY.git](git@github.com:ThomasMicheler/DEZSYS_EK_WAREHOUSE_MICROSERVICE_PY.git](https://github.com/ThomasMicheler/DEZSYS_EK_WAREHOUSE_MICROSERVICE_PY.git)
+Join GIT repository:   [https://github.com/ThomasMicheler/DEZSYS_EK_WAREHOUSE_MICROSERVICE_PY.git](https://github.com/ThomasMicheler/DEZSYS_EK_WAREHOUSE_MICROSERVICE_PY.git)
 
 ## 1. Einführung
 
