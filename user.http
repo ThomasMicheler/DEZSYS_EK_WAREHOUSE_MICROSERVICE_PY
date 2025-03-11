@@ -1,0 +1,33 @@
+# Signup - Max Mustermann
+POST http://localhost:8001/signup
+Content-Type: application/json
+
+{
+    "username" : "max.mustermann",
+    "email" : "max.mustermann@gmail.com",
+    "password" : "max"
+}
+
+###
+
+# Signup - Antonia Bauer
+POST http://localhost:8001/signup
+Content-Type: application/json
+
+{
+    "username" : "antonia.bauer",
+    "email" : "antonia.bauer@gmail.com",
+    "password" : "antonia"
+}
+
+###
+
+# Login - Antonia Bauer
+POST http://localhost:8001/login
+Content-Type: application/json
+
+{
+    "username" : "antonia.bauer",
+    "password" : "antonia",
+    "email" : "xxx"
+}

@@ -1,0 +1,49 @@
+# Product creation - Rauch Orangensaft
+POST http://localhost:8002/product
+Content-Type: application/json
+
+{
+    "id" : 110013949001,
+    "name" : "Rauch Orangensaft 1l",
+    "price" : 1.99,
+    "stock" : 100
+}
+
+###
+
+# Product creation - Rauch Apfelsaft
+POST http://localhost:8002/product
+Content-Type: application/json
+
+{
+    "id" : 110013949002,
+    "name" : "Rauch Apfelsaft 1l",
+    "price" : 1.55,
+    "stock" : 500
+}
+
+###
+
+# Product creation - Rauch Apfelsaft
+POST http://localhost:8002/product/order
+Content-Type: application/json
+
+{
+    "id" : 110013949002,
+    "stock" : 1,
+    "name" : "",
+    "price" : 0
+}
+
+###
+
+# Product request - Orangensaft
+GET http://localhost:8002/product/110013949001
+Content-Type: application/json
+
+###
+
+# Product request - Apfelsaft
+GET http://localhost:8002/product/110013949002
+Content-Type: application/json
+

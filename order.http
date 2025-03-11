@@ -1,0 +1,21 @@
+# Order creation - Rauch Orangensaft
+POST http://localhost:8003/order
+Content-Type: application/json
+
+{
+    "order_id": "20250002",
+    "product_id" : 110013949001,
+    "quantity" : 10
+}
+
+###
+
+# Order request - all orders
+GET http://localhost:8003/order
+Content-Type: application/json
+
+###
+
+# Order request
+GET http://localhost:8003/order/20250001
+Content-Type: application/json
